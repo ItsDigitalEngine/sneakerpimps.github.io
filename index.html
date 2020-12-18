@@ -1,0 +1,85 @@
+<!-- write your code here -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sneaker Pimps Customizers</title>
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="index-style.css">
+</head>
+<body>
+
+  <header class="menu">
+  <nav>
+    <ul class="logo">
+      <li>WHO WE ARE</li>
+      <li>GALLERY</li>
+      <li>COLLABS</li>
+      <li>DROP A LINE</li>
+      <li>SHOP</li>
+    </ul>
+  </nav>
+  </header>
+  <br><br>
+
+  <div id="banner">
+    <div class="shopname">
+      <h1>Sneaker Pimps Customizers</h1>
+    </div>
+  </div><br><br>
+
+  <div>
+    <ul class="steps">
+      <li>select or randomize your background color</li>
+      <li>upload your image</li>
+      <li>select your sneakers size</li>
+      <li>click 'Shoe Me' and get customized!</li>
+    </ul>
+  </div>
+
+  <div>
+      <form id="basecolor">
+        <h4>select background color for your sneakers</h4>
+        <label for="basecolor" id="label">click me to select</label>
+        <input type="color" name="basecolor" id="basebutton" value="click me to select">
+        <button type="button" id="randomizer" onclick="randomize()">click me to randomize</button>
+      </form>
+  </div>
+  <script>
+    function randomize() {
+    let random = document.getElementById("randomizer")
+    let r = () => Math.random() * 256 >> 0;
+    random.style.background = `rgb(${r()}, ${r()}, ${r()})`
+    }
+
+  </script>
+  <br>
+  <br>
+
+  <div id="myfile">
+    <form>
+        <label for="myfile">select image:</label><br>
+        <input type="file" name="myfile"><br>
+        <label for="myfile">add link to image:</label><br>
+        <input type="url" id="homepage" name="myfile">
+     </form>
+  </div>
+<br><br>
+
+<div>
+  <form action="purchase.html">
+    <input type="submit" class="form-submit-button" value="SHOE ME!"/>
+  </form>
+</div>
+
+
+</body>
+
+<footer>
+    <br>
+    <br>
+</footer>
+</html>
+
+

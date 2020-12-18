@@ -1,0 +1,102 @@
+/* write your code here */
+body {
+    background-color: #ededed;
+    font-family: 'Comfortaa', cursive;
+    padding-bottom: 600px;
+    background-image: url(purchasebackground.jpg);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .copdrop {
+    position: relative;
+    font-size: 50px;
+    color: rgba(11, 11, 48, 0.856);
+    text-align: justify;
+    width: 700px;
+    height: 50px;
+    padding: 20px 20px 10px;;
+   top: 20px;
+  }
+
+  .copordrop {
+    position: relative;
+    font-size: 35px;
+    color: rgba(11, 11, 48, 0.856);
+    text-align: justify;  
+  }
+  .size {
+      position: relative;
+      font-size: 50px;
+      color: rgba(11, 11, 48, 0.856);
+      text-align: justify;
+      width: 500px;
+      height: 60px;
+      top: 50px;
+      padding: 10px 20px 10px;
+  }
+
+  .select-selected {
+      position: relative;
+      background-color: rgb(73, 70, 70);
+      margin: auto 0;
+  }
+
+  .select-selected:after {
+      position: relative;
+      content: "";
+      top: 30px;
+      right: 20px;
+      width: 0;
+      height: 0;
+      margin: 0 auto;
+  }
+
+  .orderform {
+    position: relative;
+    font-size: 50px;
+    color: rgba(11, 11, 48, 0.856);
+    text-align: justify;
+    width: 500px;
+    height: 60px;
+    /* padding: 20px 20px; */
+    margin: auto 0;
+    top: 100px;
+  }
+
+  .row {
+    position: relative;
+    padding: 20px 20px 10px;
+    color: rgba(11, 11, 48, 0.856);
+  }
+
+  #form {
+    position: relative; 
+    font-weight: 300;
+  }
+
+  /* #fillin { */
+    /* width: 200px; */
+  /* } */
+
+  .forminput {
+    border: none;
+    border-radius: 6px;
+    width: 300px;
+  }
+
+  .country {
+    width: 400px;
+  }
+
+  #address {
+    height: 100px;
+    width: 400px;
+  }
+
+  #totalbutton {
+    height: 50px;
+    width: 200px;
+    margin: auto;
+  }
+  
